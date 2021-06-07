@@ -1,0 +1,75 @@
+body
+{
+    background-image: url('2.jpg');
+}
+.box
+{  
+    height: 503px;
+    border: solid #FE2027 1px;
+}
+h1
+{
+    text-align: center;
+}
+.ramka
+{
+   padding: 3px;
+}
+.btn
+{
+    width: 50%;
+    margin-top: 2px;
+    float: left;
+}
+.link
+{
+    float: right;
+    margin-right: 15px;
+    color: #FF005C;
+}
+.checkbox
+{
+    float: right;
+    margin-right: 5px;
+}
+a:hover
+{
+    color: #be0046;
+}
+#ladowanie
+{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 480px)
+{
+    .btn
+    {
+        margin-top: 2px;
+        width: 100%;
+        margin: 0px;
+    }
+    .link
+    {
+        margin-right: 3px;
+        font-size: 15px;
+    }
+    .ramka
+    {
+        height: 95%;
+    }
+    .box
+    {
+        height: 82%;
+    }
+    .nazwa
+    {
+        font-size: 15px;
+    }
+    ol
+    {
+        margin-left: 2px;
+    }
+}
